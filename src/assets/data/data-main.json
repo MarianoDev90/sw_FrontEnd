@@ -1,0 +1,16 @@
+{
+    "title":"StarWars Exercise by Mariano Gomez ",
+    "name":"Mariano Arturo Gómez Ibáñez",
+    "bdate":"June 11th 1990",
+    "email":"mariano.gzibz@gmail.com",
+    "author":"Mariano Gomez <MargoDev>",
+    "fb":"https://www.facebook.com/profile.php?id=100015642252775",
+    "tw":"https://twitter.com/",
+    "in": "https://www.linkedin.com/in/mariano-gomez-4863a6104/",
+    "summary":"Conocimiento en lenguajes de programación Java, C#, PHP, JavaScript, HTML y CSS, ademas de nociones de Ruby y Python. Desarrollo de BackEnd mediante aplicaciones REST, utilizando diversas herramientas como Jersey, Mybatis, Maven, Medoo, Entity Framework. Desarrollo de FrontEnd en MVC mediante AngularJS, HTML, CSS, bootStrap, jQuery, Rails. Desarrollo de Apps en Android Studio & Ionic. Plus: Bower, Firebase, oAuth2.0, Gulp, Tomcat, Git, JSON, Nginx, SSH, FTP y WordPress",
+    "targets":"Formar parte de un equipo altamente competente, aprendiendo de los mas experimentados y compartiendo mi experiencia personal.",
+    "skills":"Resiliencia, perseverancia, proactividad, humilda, carisma, liderazgo.",
+    "hobbies":"Música, deportes, cultura, senderismo, meditación, analítico, emprendimiento. ",
+    "music":"assets/media/music/starwars.mp3",
+    "mainImage":"/assets/img/mainPage.jpeg"
+}

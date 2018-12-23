@@ -1,0 +1,19 @@
+<div *ngFor="let star of characters" class="ae-grid__item item-lg-4 ae-kappa au-mb-3">
+  <h5 class="ae-u-bolder au-mt-2">
+      <a [routerLink]="['/personaje', star.name]" class="ae-u-bolder au-underline">
+        {{star.name}}
+      </a>  
+  </h5>
+  <p class="ae-u-bolder au-mb-3">{{star.gender}}</p>
+  <div class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">
+
+      <div>  <b>Created : </b> {{star.created | date:"MM/dd/yy"}}</div>
+      <div>  <b>Edited :</b> {{star.edited | date:"MM/dd/yy"}}</div>
+      <div>  <b>Eye color :</b> {{star.eye_color}}</div>
+      <div>  <b>Hair color :</b> {{star.hair_color}}</div>
+      <div>  <b>Heigth :</b> {{star.height}}</div>
+      <div>  <b>Mass :</b> {{star.mass}}</div>
+      <div>  <b>Skin color :</b> {{star.skin_color}}</div>
+    
+  </div>
+</div>
