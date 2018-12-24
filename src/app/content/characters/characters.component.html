@@ -28,7 +28,7 @@
 
   <div *ngFor="let star of characters" class="ae-grid__item item-lg-4 ae-kappa au-mb-3">
     <h5 class="ae-u-bolder au-mt-2">
-      <a [routerLink]="['/personaje', star.name]" class="ae-u-bolder au-underline">
+      <a (click)="goToDetails(star)" class="ae-u-bolder au-underline">
         {{star.name}}
       </a>
     </h5>

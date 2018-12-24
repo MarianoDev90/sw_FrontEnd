@@ -22,7 +22,10 @@ export class PersonageComponent implements OnInit {
   ngOnInit() {
     this.route.params
       .subscribe(parameter => {
-        console.log(parameter);
+        console.log('accede', parameter);
+        this.route.queryParams.subscribe( data => {
+          console.log(data);
+        });
       });
   }
 }

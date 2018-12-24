@@ -1,6 +1,7 @@
 export class AppConstants {
     public static get baseURL(): string { return 'https://swapi.co/api/'; }
     public static get internalURL(): string { return 'assets/data/data-main.json'; }
+    public static get personageURL(): string { return 'personaje/'; }
     public static get urlCharacters(): string { return 'https://swapi.co/api/people/'; }
     public static get urlPlanets(): string { return 'https://swapi.co/api/planets/'; }
     public static get urlFilms(): string { return 'https://swapi.co/api/films/'; }
